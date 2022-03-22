@@ -3,6 +3,7 @@ import config
 from aiogram import types, Bot
 
 bot = Bot(token=config.TOKEN)
+# bot=Bot(token='5120898350:AAGIiFskc-JAeF874l7c8GhlaXqTIWomUg4')
 
 db = sqlite3.connect('bot.db')
 cursor = db.cursor()
